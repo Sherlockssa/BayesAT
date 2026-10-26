@@ -1,5 +1,5 @@
 # BayesAT: Bayes-Guided Progressive Distillation for Semi-Supervised Adversarial Training
-
+BayesAT reframes SSAT as distillation from a Bayes teacher, formalizes a stage-dependent bias-variance tradeoff, and dynamically balances it via a low-to-high temperature schedule and confidence-adaptive reweighting.
 ## Requirements
 
 ### Dependencies 
