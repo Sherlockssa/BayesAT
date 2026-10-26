@@ -1,0 +1,3 @@
+attack_name: fgsm
+attack_opt:
+  eps: 8/255

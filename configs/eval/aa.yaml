@@ -1,0 +1,6 @@
+
+attack_name: aa
+attack_opt:
+  eps: 8/255
+  norm: Linf
+  version: standard

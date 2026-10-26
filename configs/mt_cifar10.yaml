@@ -1,0 +1,20 @@
+method: mt
+
+lamb: 0.0
+consistency_cost: 50.
+consistency_ramp_up: 30
+tau: 0.99
+tau_after: 0.999
+consistency_prop_label: 0.1
+adv_eval_freq: 100
+
+data: cifar10
+augment: base
+take_amount: 4000
+unsup_fraction: 0.92
+validation: false
+batch_size: 128
+batch_size_validation: 128
+num_adv_epochs: 100
+lr: 0.1
+scheduler: cosine

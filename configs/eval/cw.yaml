@@ -1,0 +1,7 @@
+
+attack_name: cw
+attack_opt:
+  steps: 20
+  alpha: 1/255
+  eps: 8/255
+
