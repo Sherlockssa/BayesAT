@@ -49,7 +49,7 @@ Our generalization bound shows that the variance-related quantities depend on th
 ## 🧩 Framework
 
 <p align="center">
-  <img src="assets/framework.png" width="92%">
+  <img src="assets/Overall Architecture Diagram.png" width="92%">
 </p>
 
 **Phase 1 (Teacher training):** the Mean Teacher is trained on labeled and unlabeled data and then fixed.
