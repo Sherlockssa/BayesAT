@@ -7,7 +7,7 @@
 Official implementation of **"BayesAT: Bayes-Guided Progressive Distillation for Semi-Supervised Adversarial Training"** (NeurIPS 2026, Poster).
 
 <p align="center">
-  <img src="assets/frontier.png" width="46%">
+  <img src="assets/frontier.pdf" width="46%">
 </p>
 
 ## 📰 News
