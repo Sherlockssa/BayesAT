@@ -1,5 +1,15 @@
 # BayesAT: Bayes-Guided Progressive Distillation for Semi-Supervised Adversarial Training
-BayesAT reframes SSAT as distillation from a Bayes teacher, formalizes a stage-dependent bias-variance tradeoff, and dynamically balances it via a low-to-high temperature schedule and confidence-adaptive reweighting.
+
+## 💡 Introduction
+
+Existing Semi-Supervised Adversarial Training (SSAT) methods typically rely on static supervision—either hard pseudo-labels or soft labels with a fixed temperature. This assumes a stationary learning process, which fails to accommodate the student's evolving capability, especially when the teacher's performance plateaus and becomes over-confident.
+
+To address this, we reframe SSAT as knowledge distillation from a Bayes teacher and formalize a **stage-dependent bias-variance tradeoff**. We propose **BayesAT**, a Bayes-guided progressive distillation framework that dynamically balances this tradeoff through two complementary mechanisms:
+1. **Variable-Temperature Progressive Distillation**: A low-to-high temperature warming schedule that transitions from sharp supervision (for boundary establishment) to smooth supervision (for variance control).
+2. **Confidence-Adaptive Sample Reweighting**: A sample-wise mechanism that uses teacher confidence as a proxy to down-weight ambiguous supervision.
+
+By operating along complementary axes (stage-wise vs. sample-wise), BayesAT achieves a superior accuracy-robustness trade-off across CIFAR-10/100 and ImageNet-200.
+
 ## Requirements
 
 ### Dependencies 
